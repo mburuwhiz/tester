@@ -1,0 +1,15 @@
+{
+  "name": "twoem-test-deploy",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build successful: Environment prepared.'",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3"
+  }
+}
